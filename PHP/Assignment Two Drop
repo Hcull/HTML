@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- set number -->
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?php
+$number_one=25;
+$number_two=32;
+$sum=$number_one+$number_two;
+$difference=$number_two-$number_one;
+$product=$number_two*$number_one;
+$division=$number_two/$number_one;
+$remender=$number_two%$number_one;
+
+echo $number_one."+".$number_two."=".$sum."</br>";
+echo $number_two."-".$number_one."=".$difference."</br>";
+echo $number_one."*".$number_two."=".$product."</br>";
+echo $number_two."/".$number_one."=".$division."</br>";
+echo $number_two."%".$number_one."=".$remender."</br>";
+?>
+</body>
+</html>
+
+<!-- Random numbers -->
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?php
+$number_one=mt_rand(1,100);;
+$number_two=mt_rand(1,100);
+$sum=$number_one+$number_two;
+$difference=$number_two-$number_one;
+$product=$number_two*$number_one;
+$division=$number_two/$number_one;
+$remender=$number_two%$number_one;
+
+echo $number_one."+".$number_two."=".$sum."</br>";
+echo $number_two."-".$number_one."=".$difference."</br>";
+echo $number_one."*".$number_two."=".$product."</br>";
+echo $number_two."/".$number_one."=".$division."</br>";
+echo $number_two."%".$number_one."=".$remender."</br>";
+?>
+</body>
+</html>
